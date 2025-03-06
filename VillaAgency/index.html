@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Villa Agency</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <a class="logo" href="#">villa</a>
+      <div class="links">
+        <a href="#hero">Home</a>
+        <a href="#deal">Property Details</a>
+        <a href="#properties">Properties</a>
+        <a href="#contact">Contact US</a>
+        <div class="tile">
+          <div class="circle">
+            <i class="fa fa-calendar"></i>
+          </div>
+          Schedule a visit
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <!-- Bg Images -->
+      <img class="overlay-img" src="./img/canada.png" alt="Villa1" />
+      <img class="overlay-img" src="./img/dubai.png" alt="Villa2" />
+      <img class="overlay-img" src="./img/istambul.png" alt="Villa3" />
+      <div class="overlay"></div>
+      <div class="info">
+        <div class="tag">Toronto, <span>Canada</span></div>
+        <h1>hurry! <br />get the best villa for you</h1>
+      </div>
+      <div class="info">
+        <div class="tag">Dubai, <span>UAE</span></div>
+        <h1>the only seven star hotel waiting</h1>
+      </div>
+      <div class="info">
+        <div class="tag">Istambul, <span>Turkey</span></div>
+        <h1>blend of nature and modernism!</h1>
+      </div>
+      <div class="controls">
+        <div class="control" onclick="updateHeroIndex(0)"></div>
+        <div class="control" onclick="updateHeroIndex(1)"></div>
+        <div class="control" onclick="updateHeroIndex(2)"></div>
+      </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured" id="featured">
+      <div class="img-field">
+        <img src="./img/interior1.png" alt="Featured Image" />
+        <div class="circle">
+          <i class="fa-solid fa-house-signal"></i>
+        </div>
+      </div>
+      <div class="info-field">
+        <h3 class="heading">featured</h3>
+        <h2 class="title">best apartment & sea view</h2>
+        <div class="card">
+          <span>Best useful links?</span>
+          <p>
+            Lorem ipsum dolor sit amet
+            <strong>consectetur adipisicing elit</strong>. Quibusdam dolorum sit
+            id corrupti veritatis dolore odit ut repudiandae,
+            <span>voluptatum accusamus minima</span> eum Illo odio voluptatum
+            qui corporis possimus voluptas beatae.
+          </p>
+          <h4 class="border">How does this work?</h4>
+          <h4>Why is the villa agency the best?</h4>
+        </div>
+      </div>
+      <div class="details-field">
+        <div class="box border">
+          <i class="fa-solid fa-chart-area"></i>
+          <div>
+            <h2>250 m2</h2>
+            <p>Total Flat Space</p>
+          </div>
+        </div>
+        <div class="box border">
+          <i class="fa-solid fa-file-invoice"></i>
+          <div>
+            <h2>Contract</h2>
+            <p>Contract Ready</p>
+          </div>
+        </div>
+        <div class="box border">
+          <i class="fa-solid fa-credit-card"></i>
+          <div>
+            <h2>Payment</h2>
+            <p>Payment Process</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-user-shield"></i>
+          <div>
+            <h2>Safety</h2>
+            <p>24/7 Under control</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video section -->
+    <section class="video" id="video">
+      <div class="container">
+        <div class="overlay"></div>
+        <div class="content">
+          <h2 class="heading">Video view</h2>
+          <h1>get closer view & different feelings</h1>
+          <div class="video">
+            <img src="./img/interior3.png" alt="video" />
+            <div class="border"></div>
+            <div class="control"><i class="fa fa-play"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <h1>34</h1>
+          <h3>Buildings finished now</h3>
+          <div></div>
+        </div>
+        <div class="box">
+          <h1>12</h1>
+          <h3>Years of experience</h3>
+          <div></div>
+        </div>
+        <div class="box">
+          <h1>24</h1>
+          <h3>Awards won 2025</h3>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Deal Section -->
+    <section class="deal" id="deal">
+      <div class="top">
+        <div class="info">
+          <h2 class="heading">best deal</h2>
+          <h1>find your best deal right now</h1>
+        </div>
+        <div class="actions">
+          <button class="btn filled">Apartment</button>
+          <button class="btn">Villa House</button>
+          <button class="btn">Penthouse</button>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="card">
+          <div class="box border">
+            <h3>Total Flat Space</h3>
+            <h2>185 m2</h2>
+          </div>
+          <div class="box border">
+            <h3>Floor number</h3>
+            <h2>26th</h2>
+          </div>
+          <div class="box border">
+            <h3>Number of rooms</h3>
+            <h2>4</h2>
+          </div>
+          <div class="box border">
+            <h3>Parking available</h3>
+            <h2>Yes</h2>
+          </div>
+          <div class="box">
+            <h3>Payment Process</h3>
+            <h2>Bank</h2>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./img/interior4.png" alt="Interior" />
+        </div>
+        <div class="info">
+          <h2>Extra Info About Property</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+            nisi repellat quaerat mollitia laborum adipisci veniam excepturi
+            alias quibusdam nulla dolores voluptatum nobis, similique at ex.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+            voluptatum reprehenderit quidem consectetur optio ratione nisi
+            adipisci dolores quas hic ipsum beatae, expedita, assumenda, sit
+            culpa vel perspiciatis! Dolorem, tempora.
+          </p>
+          <div class="tile">
+            <div class="circle">
+              <i class="fa fa-calendar"></i>
+            </div>
+            Schedule a visit
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Properties section -->
+    <section class="properties" id="properties">
+      <div class="top">
+        <h2 class="heading">Properties</h2>
+        <h1>We provide the best property you like</h1>
+      </div>
+      <div class="bottom">
+        <div class="card">
+          <img src="./img/interior2.png" alt="Card 1" />
+          <div class="row">
+            <span>Luxury Villa</span>
+            <h3>$2.264.000</h3>
+          </div>
+          <h2>18 New Street Miami</h2>
+          <div class="flex-wrap">
+            <div class="item">
+              <span>Bedrooms:</span>
+              <h3>8</h3>
+            </div>
+            <div class="item">
+              <span>Bathrooms:</span>
+              <h3>8</h3>
+            </div>
+            <div class="item">
+              <span>Area:</span>
+              <h3>545 m2</h3>
+            </div>
+            <div class="item">
+              <span>Floor:</span>
+              <h3>6</h3>
+            </div>
+            <div class="item">
+              <span>Parking:</span>
+              <h3>6 spots</h3>
+            </div>
+          </div>
+          <button class="btn rounded">Schedule a visit</button>
+        </div>
+        <div class="card">
+          <img src="./img/interior1.png" alt="Card 1" />
+          <div class="row">
+            <span>Luxury Villa</span>
+            <h3>$1.180.000</h3>
+          </div>
+          <h2>54 Mid Street Florida, OR 27001</h2>
+          <div class="flex-wrap">
+            <div class="item">
+              <span>Bedrooms:</span>
+              <h3>6</h3>
+            </div>
+            <div class="item">
+              <span>Bathrooms:</span>
+              <h3>5</h3>
+            </div>
+            <div class="item">
+              <span>Area:</span>
+              <h3>450 m2</h3>
+            </div>
+            <div class="item">
+              <span>Floor:</span>
+              <h3>3</h3>
+            </div>
+            <div class="item">
+              <span>Parking:</span>
+              <h3>8 spots</h3>
+            </div>
+          </div>
+          <button class="btn rounded">Schedule a visit</button>
+        </div>
+        <div class="card">
+          <img src="./img/interior3.png" alt="Card 1" />
+          <div class="row">
+            <span>Luxury Villa</span>
+            <h3>$1.460.000</h3>
+          </div>
+          <h2>26 Old Street Miami, OR 38540</h2>
+          <div class="flex-wrap">
+            <div class="item">
+              <span>Bedrooms:</span>
+              <h3>5</h3>
+            </div>
+            <div class="item">
+              <span>Bathrooms:</span>
+              <h3>4</h3>
+            </div>
+            <div class="item">
+              <span>Area:</span>
+              <h3>225 m2</h3>
+            </div>
+            <div class="item">
+              <span>Floor:</span>
+              <h3>3</h3>
+            </div>
+            <div class="item">
+              <span>Parking:</span>
+              <h3>10 spots</h3>
+            </div>
+          </div>
+          <button class="btn rounded">Schedule a visit</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="header">
+        <div class="overlay"></div>
+        <div class="content">
+          <h3 class="heading">Contact us</h3>
+          <h2>Get in touch with our agents</h2>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="left">
+          <div class="top">
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.68281887844!2d54.89782418606137!3d25.076280448702796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1740488853911!5m2!1sen!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="infos">
+            <div class="box">
+              <i class="fa fa-phone"></i>
+              <div class="col">
+                <h3>010-020-0340</h3>
+                <p>Phone Number</p>
+              </div>
+            </div>
+            <div class="box">
+              <i class="fa fa-envelope"></i>
+              <div class="col">
+                <h3>info@villa.co</h3>
+                <p>Business Email</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="right">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" placeholder="Your Name..." />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your E-Mail..."
+          />
+          <label for="email">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject..."
+          />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Your Message..."
+          ></textarea>
+          <button class="btn rounded" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Copyright © 2025 Villa Agency, Altair Tech. All rights reserved. Design
+        made by: Maverick Poly
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

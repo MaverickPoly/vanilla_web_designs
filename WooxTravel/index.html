@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woox Travel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">
+        <svg
+          width="50"
+          height="50"
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="100" cy="100" r="80" fill="#3498db" />
+          <text
+            x="50%"
+            y="50%"
+            font-size="70"
+            font-weight="bold"
+            fill="white"
+            text-anchor="middle"
+            dy=".3em"
+          >
+            W
+          </text>
+        </svg>
+      </a>
+      <ul>
+        <li>
+          <a href="#home">home</a>
+        </li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#deals">deals</a></li>
+        <li><a href="#reservation">reservation</a></li>
+        <li><a href="#book">book</a></li>
+      </ul>
+      <div id="menu-btn"></div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero" id="hero">
+      <div class="carousel">
+        <div class="box">
+          <img
+            src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180522150455/lake-baikal-summer.jpg"
+            alt="Russia Nature"
+          />
+          <div></div>
+          <span>Explore The Rainy Forests of</span>
+          <h1>Russia</h1>
+          <button class="outline">Go There</button>
+        </div>
+        <div class="box">
+          <img
+            src="https://media.istockphoto.com/id/469084772/photo/idyllic-summer-landscape-with-mountain-lake-in-the-alps.jpg?s=612x612&w=0&k=20&c=32wfuuXRWNZvChHKl2Hy9gqWqvQl9u2H_3-YHx22_T0="
+            alt="Switzerland nature"
+          />
+          <div></div>
+          <span>Take a Glimpse into The Beautiful Country Of</span>
+          <h1>Switzerland</h1>
+          <button class="outline">Go There</button>
+        </div>
+        <div class="box">
+          <img
+            src="https://mediaassets.cbre.com/-/media/project/cbre/dotcom/asiapacific/pakistan-emerald/cbre-pakistan-homepage-hero-2736x1824.jpeg"
+            alt="Pakistan"
+          />
+          <div></div>
+          <span>Explore The Glinching Hospitality Of</span>
+          <h1>Pakistan</h1>
+          <button class="outline">Go There</button>
+        </div>
+        <div class="box">
+          <img
+            src="https://www.explore.co.uk/medialibraries/explore/explore-media/destinations/middle%20east/egypt/egypt-header.jpg?ext=.jpg&width=1920&format=webp&quality=80&v=201704211554%201920w"
+            alt="Egypt"
+          />
+          <div></div>
+          <span>Be Amazed by History and Nature Of</span>
+          <h1>Egypt</h1>
+          <button class="outline">Go There</button>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="controls">
+          <div class="control">
+            <div class="groups">
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-user"></i></div>
+                <div class="content">
+                  <span>Population</span>
+                  <span class="title">146M</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-globe"></i></div>
+                <div class="content">
+                  <span>Territory</span>
+                  <span class="title">17.890.000 KM2</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-home"></i></div>
+                <div class="content">
+                  <span>AVG Price</span>
+                  <span class="title">$60.000</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn">Explore More</button>
+          </div>
+          <div class="control">
+            <div class="groups">
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-user"></i></div>
+                <div class="content">
+                  <span>Population</span>
+                  <span class="title">8.66M</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-globe"></i></div>
+                <div class="content">
+                  <span>Territory</span>
+                  <span class="title">41.290 KM2</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-home"></i></div>
+                <div class="content">
+                  <span>AVG Price</span>
+                  <span class="title">$1.100.200</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn">Explore More</button>
+          </div>
+          <div class="control">
+            <div class="groups">
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-user"></i></div>
+                <div class="content">
+                  <span>Population</span>
+                  <span class="title">248.5M</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-globe"></i></div>
+                <div class="content">
+                  <span>Territory</span>
+                  <span class="title">881.640 KM2</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-home"></i></div>
+                <div class="content">
+                  <span>AVG Price</span>
+                  <span class="title">$50.600</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn">Explore More</button>
+          </div>
+          <div class="control">
+            <div class="groups">
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-user"></i></div>
+                <div class="content">
+                  <span>Population</span>
+                  <span class="title">114.5M</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-globe"></i></div>
+                <div class="content">
+                  <span>Area</span>
+                  <span class="title">1.000.000 KM2</span>
+                </div>
+              </div>
+              <div class="group">
+                <div class="circle"><i class="fa-solid fa-home"></i></div>
+                <div class="content">
+                  <span>AVG Price</span>
+                  <span class="title">40.90M</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn">Explore More</button>
+          </div>
+        </div>
+        <div class="actions">
+          <div class="el" onclick="switchCarousel(1)">1</div>
+          <div class="el" onclick="switchCarousel(2)">2</div>
+          <div class="el" onclick="switchCarousel(3)">3</div>
+          <div class="el" onclick="switchCarousel(4)">4</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations section -->
+    <section class="destinations" id="destinations">
+      <div class="info">
+        <h2>Visit One of our countries now</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore sed
+          sapiente dolorem error suscipit reiciendis impedit enim debitis
+          tempore amet.
+        </p>
+      </div>
+      <div class="main">
+        <div class="container">
+          <div class="card">
+            <img src="./img/egypt.png" alt="Egypt" />
+            <div class="info">
+              <div class="row">
+                <div class="col">
+                  <h4>Egypt</h4>
+                  <span>Africa</span>
+                </div>
+                <button class="btn">Explore More</button>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                porro necessitatibus repreh, nulla corporis veniam enim vitae
+                voluptatibus itaque veritatis animi, ullam nemo.
+              </p>
+              <div class="row">
+                <div class="item">
+                  <i class="fa-solid fa-user"></i>5.000 people
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-globe"></i>42.000 KM2
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-home"></i>1.200.000
+                </div>
+              </div>
+              <div class="link">
+                <a href="#"
+                  >Need Directions?
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/india.png" alt="India" />
+            <div class="info">
+              <div class="row">
+                <div class="col">
+                  <h4>India</h4>
+                  <span>Asia</span>
+                </div>
+                <button class="btn">Explore More</button>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                porro necessitatibus repreh, nulla corporis veniam enim vitae
+                voluptatibus itaque veritatis animi, ullam nemo.
+              </p>
+              <div class="row">
+                <div class="item">
+                  <i class="fa-solid fa-user"></i>5.000 people
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-globe"></i>42.000 KM2
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-home"></i>1.200.000
+                </div>
+              </div>
+              <div class="link">
+                <a href="#"
+                  >Need Directions?
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/iran.png" alt="Iran" />
+            <div class="info">
+              <div class="row">
+                <div class="col">
+                  <h4>Iran</h4>
+                  <span>Asia</span>
+                </div>
+                <button class="btn">Explore More</button>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                porro necessitatibus repreh, nulla corporis veniam enim vitae
+                voluptatibus itaque veritatis animi, ullam nemo.
+              </p>
+              <div class="row">
+                <div class="item">
+                  <i class="fa-solid fa-user"></i>5.000 people
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-globe"></i>42.000 KM2
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-home"></i>1.200.000
+                </div>
+              </div>
+              <div class="link">
+                <a href="#"
+                  >Need Directions?
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/mongolia.png" alt="Mongolia" />
+            <div class="info">
+              <div class="row">
+                <div class="col">
+                  <h4>Mongolia</h4>
+                  <span>Asia</span>
+                </div>
+                <button class="btn">Explore More</button>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                porro necessitatibus repreh, nulla corporis veniam enim vitae
+                voluptatibus itaque veritatis animi, ullam nemo.
+              </p>
+              <div class="row">
+                <div class="item">
+                  <i class="fa-solid fa-user"></i>5.000 people
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-globe"></i>42.000 KM2
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-home"></i>1.200.000
+                </div>
+              </div>
+              <div class="link">
+                <a href="#"
+                  >Need Directions?
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/turkey.png" alt="Turkey" />
+            <div class="info">
+              <div class="row">
+                <div class="col">
+                  <h4>Turkey</h4>
+                  <span>Asia</span>
+                </div>
+                <button class="btn">Explore More</button>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                porro necessitatibus repreh, nulla corporis veniam enim vitae
+                voluptatibus itaque veritatis animi, ullam nemo.
+              </p>
+              <div class="row">
+                <div class="item">
+                  <i class="fa-solid fa-user"></i>5.000 people
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-globe"></i>42.000 KM2
+                </div>
+                <div class="item">
+                  <i class="fa-solid fa-home"></i>1.200.000
+                </div>
+              </div>
+              <div class="link">
+                <a href="#"
+                  >Need Directions?
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="pagination">
+            <button class="arrow" id="left">
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            <div class="circle">1</div>
+            <div class="circle active">2</div>
+            <div class="circle">3</div>
+            <button class="arrow" id="right">
+              <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019982456!2d-122.0842499!3d37.4220656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24f0b8f0b0b%3A0x4a0b0b0b0b0b0b0b!2sGoogleplex!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus"
+            width="400"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <img src="./img/intro.png" alt="Travel" />
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="box">
+          <h1>are you looking to travel?</h1>
+          <p>make a reservation by clicking the button</p>
+        </div>
+        <button class="outline">Book Yours Now</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Copyright © 2025 <span>Woox Travel Company</span>. All rights reserved.
+      </p>
+      <span>Made By: Maverick Poly at AltairTech</span>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

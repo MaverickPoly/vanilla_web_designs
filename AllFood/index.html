@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Food</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="active">
+      <a href="/" class="logo"> All Food </a>
+      <div class="links">
+        <a href="#hero">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <button class="btn outline">Order Online</button>
+      </div>
+    </nav>
+
+    <!-- Scroll to top button -->
+    <button class="scrollBtn"><i class="fa fa-arrow-up"></i></button>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="left">
+        <span class="tag">Discover your taste</span>
+        <h1>We believe good food offer great smile</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          facere sint ut corporis asperiores, necessitatibus mollitia a
+          provident nulla?
+        </p>
+        <button class="btn filled">Resurvation</button>
+      </div>
+      <div class="right">
+        <img src="imgs/steak-hero.png" alt="Hero Image" />
+      </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section class="discover" id="discover">
+      <div class="left">
+        <span class="tag">Discover your test</span>
+        <h2>We Provide Good Food For Your Family!</h2>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          autem nisi rem vitae impedit nam atque pariatur dolore eum doloribus
+          suscipit, amet animi id deserunt tempore nemo.
+        </p>
+        <div class="grid">
+          <div class="box">
+            <i class="fa fa-person"></i>
+            <p>Lorem ipsum dolor sit amet consect adipisicing elit.</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-utensils"></i>
+            <p>Lorem ipsum dolor sit amet consect adipisicing elit.</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-kitchen-set"></i>
+            <p>Lorem ipsum dolor sit amet consect adipisicing elit.</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <p>Lorem ipsum dolor sit amet consect adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <img src="imgs/chef.png" alt="Discover Image" />
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+      <div class="top">
+        <img src="imgs/coffee-cup.png" alt="Coffee Cup" />
+        <div class="info">
+          <span class="tag">Our offered Menu</span>
+          <h2>Some Trendy and popular courses offered</h2>
+        </div>
+        <div class="actions">
+          <button class="chip" onclick="changeChipIndex(0)">Special</button>
+          <button class="chip" onclick="changeChipIndex(1)">Lunch</button>
+          <button class="chip" onclick="changeChipIndex(2)">Breakfast</button>
+          <button class="chip" onclick="changeChipIndex(3)">Dinner</button>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="container">
+          <div class="box flex1">
+            <img src="imgs/food1.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="box flex">
+            <img src="imgs/food2.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="col flex">
+            <div class="box">
+              <img src="imgs/food3.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="imgs/food4.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="box flex1">
+            <img src="imgs/food2.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="box flex">
+            <img src="imgs/food3.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="col flex">
+            <div class="box">
+              <img src="imgs/food4.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="imgs/food5.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="box flex1">
+            <img src="imgs/food3.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="box flex">
+            <img src="imgs/food4.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="col flex">
+            <div class="box">
+              <img src="imgs/food5.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="imgs/food1.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="box flex1">
+            <img src="imgs/food4.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="box flex">
+            <img src="imgs/food5.png" alt="Food Image" />
+            <div class="info">
+              <span class="tag">$25</span>
+              <h3>Delicious Food</h3>
+              <p>Ut enim ad minim veniam quis nostr.</p>
+              <div class="btn filled">Order Now</div>
+            </div>
+          </div>
+          <div class="col flex">
+            <div class="box">
+              <img src="imgs/food1.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <img src="imgs/food2.png" alt="Food Image" />
+              <div class="info">
+                <span class="tag">$25</span>
+                <h3>Delicious Food</h3>
+                <p>Ut enim ad minim veniam quis nostr.</p>
+                <div class="btn filled">Order Now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="left">
+        <img src="/imgs/about_img.png" alt="About Image" />
+      </div>
+
+      <div class="right">
+        <span class="tag">About our restaurant</span>
+        <h2>We Provide Good food for your family!!</h2>
+        <p class="bold">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum deleniti
+          rerum laboriosam, unde quod eaque earum vitae ex autem quos nemo
+          aperiam eius recusandae nam praesentium, aspernatur quo.
+        </p>
+        <p class="normal">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+          ratione ullam expedita? Perferendis porro sint praesentium est vitae
+          id nobis facere repellat, fuga consectetur suscipit voluptatibus sunt
+          dolores enim veritatis ullam, iste nostrum dolores enim veritatis
+          ullam, iste nostrum.
+        </p>
+
+        <button class="btn outline">Learn More</button>
+      </div>
+    </section>
+
+    <!-- Book section -->
+    <section class="book" id="book">
+      <img src="/imgs/book_img.png" alt="Book Image" />
+      <div class="main">
+        <div class="info">
+          <span class="tag">About our restaurant</span>
+          <h2>Book a Table</h2>
+        </div>
+        <div class="container">
+          <div class="box">
+            <i class="fa-regular fa-user"></i>
+            <select>
+              <option value="person" selected hidden disabled>Person</option>
+              <option value="person1">Person 1</option>
+              <option value="person2">Person 2</option>
+              <option value="person3">Person 3</option>
+            </select>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-calendar"></i>
+            <input type="text" placeholder="Date" />
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-clock"></i>
+            <input type="text" placeholder="Time" />
+          </div>
+          <button class="btn filled">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="info">
+        <span class="tag">Services we offer</span>
+        <h2>Our best services</h2>
+      </div>
+      <div class="container">
+        <div class="box">
+          <i class="fa-regular fa-user"></i>
+          <h3>best chef</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae,
+            unde similique ratione temporibus enim aperiam?
+          </p>
+        </div>
+        <div class="box active">
+          <i class="fa fa-bowl-food"></i>
+          <h3>quality food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae,
+            unde similique ratione temporibus enim aperiam?
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa fa-mug-saucer"></i>
+          <h3>perfect cook</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae,
+            unde similique ratione temporibus enim aperiam?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="left">
+        <img src="/imgs/steak-contact.png" alt="Steak Plate" />
+      </div>
+      <div class="right">
+        <span class="tag">About our restaurant</span>
+        <h2>we provide good food for your family!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nisi
+          obcaecati voluptate cupiditate cumque dicta eos odit, ex totam quidem.
+          Cumque molestias aliquam fuga voluptate cupiditate beatae eos odit, ex
+          totam dolor placeat quam quisquam doloribus?
+        </p>
+        <div class="row">
+          <input type="email" placeholder="Your Email" />
+          <button class="btn filled">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news" id="news">
+      <div class="intro">
+        <span class="tag">our new blog news</span>
+        <h3>Our Recent News</h3>
+      </div>
+
+      <div class="container">
+        <div class="box">
+          <div class="img">
+            <img src="/imgs/chef1.png" alt="Chef 1" />
+          </div>
+          <div class="info">
+            <span>27 FEB, 2025</span>
+            <h3>Addiction When Food Plate Becomes</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="/imgs/chef2.png" alt="Chef 2" />
+          </div>
+          <div class="info">
+            <span>27 FEB, 2025</span>
+            <h3>Addiction When Food Plate Becomes</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="/imgs/chef3.png" alt="Chef 3" />
+          </div>
+          <div class="info">
+            <span>27 FEB, 2025</span>
+            <h3>Addiction When Food Plate Becomes</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="overlay">
+        <div class="top">
+          <div class="logo">
+            <i class="fa fa-utensils"></i>
+            <h3>All Food</h3>
+          </div>
+          <div class="links">
+            <h3>Navigation</h3>
+            <a href="#">Home</a>
+            <a href="#">Events</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Categories</a>
+            <a href="#">Contacts</a>
+          </div>
+          <div class="links">
+            <h3>Useful Links</h3>
+            <a href="#">Registration</a>
+            <a href="#">Login</a>
+            <a href="#">Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+          <div class="feed">
+            <h3>Instagram Feed</h3>
+            <div class="flex">
+              <img src="imgs/food1.png" alt="Food" />
+              <img src="imgs/book_img.png" alt="Food" />
+              <img src="imgs/food2.png" alt="Food" />
+              <img src="imgs/food3.png" alt="Food" />
+              <img src="imgs/food4.png" alt="Food" />
+              <img src="imgs/food5.png" alt="Food" />
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <p>
+            Copyright © All rights reserved | This template is made with ❤️ by
+            <span>AltairTech</span>
+          </p>
+          <div class="right">
+            <span>Follow Us</span>
+            <div class="line"></div>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
