@@ -1,6 +1,6 @@
 # Vanilla Web Designs 🎨
 
-Welcome to **Vanilla Web Designs**! This repository showcases **5 web designs** implemented using pure **HTML**, **CSS**, and **JavaScript**. Each design is a demonstration of modern, responsive, and visually appealing web layouts built without any frameworks or libraries!
+Welcome to **Vanilla Web Designs**! This repository showcases **5 web designs** implemented using pure **HTML**, **CSS**, and **JavaScript**. Each design is a demonstration of modern, responsive, and visually appealing web layouts built without any frameworks or libraries.
 
 Here’s a collage of the designs included in this repository:
 
