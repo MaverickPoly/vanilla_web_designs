@@ -36,9 +36,9 @@ _Collage of the 5 web designs implemented in this repository._
 
 5. **Design 5**: Video Graph: Photographers Portfolio Website
 
-6. **Design 4**: Villa Agency Landing Page
+6. **Design 6**: Villa Agency Landing Page
 
-7. **Design 5**: Woox: Travel Service Simple Landing Page
+7. **Design 7**: Woox: Travel Service Simple Landing Page
 
 ---
 
